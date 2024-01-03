@@ -1,0 +1,36 @@
+button {
+	text-transform: uppercase;
+	padding: 1rem 1.5rem;
+	background-color: #4ecdc4;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	opacity: 1;
+	border-radius: 10px;
+	box-shadow: 0 2px #358a85;
+	transition: 0.1s;
+	width: 150px;
+	font-size: 16px;
+	font-weight: bold;
+	height: 50px;
+}
+
+button:hover {
+	opacity: 0.9;
+}
+
+button:active {
+	background-color: #37a3b3;
+	box-shadow: 0 2px #37a3b3;
+	transform: translateY(2px);
+}
+
+#clear-btn {
+	background-color: rgb(255, 107, 107);
+	box-shadow: 0 2px #cc241d;
+}
+
+#clear-btn:active {
+	background-color: #c65353;
+	box-shadow: 0 2px #c65353;
+}
